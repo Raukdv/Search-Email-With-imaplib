@@ -85,3 +85,7 @@ for msg in msgs[::-1]:
 
             #call get_email_info for get the email info, as date, to, from, subject.
  #           email_info_value = get_email_info(sent[1])
+
+#if you want more security
+#con.close()
+#con.logout()
